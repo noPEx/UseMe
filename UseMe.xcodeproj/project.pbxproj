@@ -287,6 +287,9 @@
 		04E0296B17D7030500F9B40B /* text_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E0285717D7030500F9B40B /* text_bar@2x.png */; };
 		04E0296F17D7260900F9B40B /* ServicesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0296D17D7260900F9B40B /* ServicesListViewController.m */; };
 		04E0297017D7260900F9B40B /* ServicesListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E0296E17D7260900F9B40B /* ServicesListViewController.xib */; };
+		04E0297417D74A9E00F9B40B /* ServiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0297317D74A9D00F9B40B /* ServiceCell.m */; };
+		04E0297617D74B1600F9B40B /* ServiceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E0297517D74B1600F9B40B /* ServiceCell.xib */; };
+		04E0297817D7584F00F9B40B /* pass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04E0297717D7584C00F9B40B /* pass.jpg */; };
 		7F1F812617D45C3E00569CC3 /* SAN_requestToServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F812517D45C3E00569CC3 /* SAN_requestToServer.m */; };
 		7F1F813C17D4872D00569CC3 /* LoginScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F813A17D4872D00569CC3 /* LoginScreenViewController.m */; };
 		7F1F813D17D4872D00569CC3 /* LoginScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F813B17D4872D00569CC3 /* LoginScreenViewController.xib */; };
@@ -625,6 +628,10 @@
 		04E0296D17D7260900F9B40B /* ServicesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServicesListViewController.m; path = soumya/ServicesListViewController.m; sourceTree = SOURCE_ROOT; };
 		04E0296E17D7260900F9B40B /* ServicesListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ServicesListViewController.xib; path = soumya/ServicesListViewController.xib; sourceTree = SOURCE_ROOT; };
 		04E0297117D72DCA00F9B40B /* service_list.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = service_list.txt; path = soumya/service_list.txt; sourceTree = SOURCE_ROOT; };
+		04E0297217D74A9D00F9B40B /* ServiceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServiceCell.h; path = soumya/ServiceCell.h; sourceTree = SOURCE_ROOT; };
+		04E0297317D74A9D00F9B40B /* ServiceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServiceCell.m; path = soumya/ServiceCell.m; sourceTree = SOURCE_ROOT; };
+		04E0297517D74B1600F9B40B /* ServiceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ServiceCell.xib; path = soumya/ServiceCell.xib; sourceTree = SOURCE_ROOT; };
+		04E0297717D7584C00F9B40B /* pass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pass.jpg; sourceTree = "<group>"; };
 		7F1F812417D45C3E00569CC3 /* SAN_requestToServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAN_requestToServer.h; sourceTree = "<group>"; };
 		7F1F812517D45C3E00569CC3 /* SAN_requestToServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAN_requestToServer.m; sourceTree = "<group>"; };
 		7F1F813917D4872D00569CC3 /* LoginScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginScreenViewController.h; path = soumya/LoginScreenViewController.h; sourceTree = SOURCE_ROOT; };
@@ -1191,6 +1198,9 @@
 				04E0296D17D7260900F9B40B /* ServicesListViewController.m */,
 				04E0296E17D7260900F9B40B /* ServicesListViewController.xib */,
 				04E0297117D72DCA00F9B40B /* service_list.txt */,
+				04E0297217D74A9D00F9B40B /* ServiceCell.h */,
+				04E0297317D74A9D00F9B40B /* ServiceCell.m */,
+				04E0297517D74B1600F9B40B /* ServiceCell.xib */,
 			);
 			name = soumya;
 			sourceTree = "<group>";
@@ -1231,6 +1241,7 @@
 		7FDAC20B17CC973D00316FFC /* UseMe */ = {
 			isa = PBXGroup;
 			children = (
+				04E0297717D7584C00F9B40B /* pass.jpg */,
 				04E0273117D7030300F9B40B /* Images */,
 				043A103417D5CB3D001F6FC8 /* image1.jpeg */,
 				7F9719EC17CF86F900FC624C /* soumya */,
@@ -1428,6 +1439,7 @@
 				04E0293B17D7030500F9B40B /* tab_create_service_normal@2x.png in Resources */,
 				04E0290617D7030500F9B40B /* service_details_selected_favorite_btn.png in Resources */,
 				04E028B317D7030500F9B40B /* nav_search_btn_normal@2x.png in Resources */,
+				04E0297617D74B1600F9B40B /* ServiceCell.xib in Resources */,
 				04E0289B17D7030500F9B40B /* red_highlighted@2x.png in Resources */,
 				04E0291E17D7030500F9B40B /* filter_science_tech_icon.png in Resources */,
 				7F95916217D0B720004CF897 /* SAN_Cell2.xib in Resources */,
@@ -1456,6 +1468,7 @@
 				04E028C017D7030500F9B40B /* segment_map_normal.png in Resources */,
 				04E0296B17D7030500F9B40B /* text_bar@2x.png in Resources */,
 				04E028E117D7030500F9B40B /* search_page_bg@2x.png in Resources */,
+				04E0297817D7584F00F9B40B /* pass.jpg in Resources */,
 				04E028F017D7030500F9B40B /* content_bg@2x.png in Resources */,
 				04E028C117D7030500F9B40B /* segment_map_normal@2x.png in Resources */,
 				04E0292A17D7030500F9B40B /* filter_health_pin.png in Resources */,
@@ -1682,6 +1695,7 @@
 				7FD724E817CE21CB00A154BD /* SAN_addMapViewController.m in Sources */,
 				7F97198217CF711800FC624C /* SAN_sendNewServiceToServer.m in Sources */,
 				7FDAC23B17CCA3F800316FFC /* SAN_addServiceViewController.m in Sources */,
+				04E0297417D74A9E00F9B40B /* ServiceCell.m in Sources */,
 				7F1F814617D4874700569CC3 /* CalloutView.m in Sources */,
 				7F97195D17CF122900FC624C /* SAN_annotation.m in Sources */,
 				7FDAC27017CCDB7B00316FFC /* SAN_paymentView.m in Sources */,
