@@ -300,6 +300,8 @@
 		04E0298B17D8780A00F9B40B /* sales.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E0298217D8780A00F9B40B /* sales.png */; };
 		04E0298C17D8780A00F9B40B /* science.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E0298317D8780A00F9B40B /* science.png */; };
 		04E0298D17D8780A00F9B40B /* service.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E0298417D8780A00F9B40B /* service.png */; };
+		04E0299117D8914800F9B40B /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E0298F17D8914800F9B40B /* ProfileViewController.m */; };
+		04E0299217D8914800F9B40B /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E0299017D8914800F9B40B /* ProfileViewController.xib */; };
 		7F1F812617D45C3E00569CC3 /* SAN_requestToServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F812517D45C3E00569CC3 /* SAN_requestToServer.m */; };
 		7F1F813C17D4872D00569CC3 /* LoginScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F813A17D4872D00569CC3 /* LoginScreenViewController.m */; };
 		7F1F813D17D4872D00569CC3 /* LoginScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F1F813B17D4872D00569CC3 /* LoginScreenViewController.xib */; };
@@ -652,6 +654,9 @@
 		04E0298217D8780A00F9B40B /* sales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sales.png; sourceTree = "<group>"; };
 		04E0298317D8780A00F9B40B /* science.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = science.png; sourceTree = "<group>"; };
 		04E0298417D8780A00F9B40B /* service.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = service.png; sourceTree = "<group>"; };
+		04E0298E17D8914800F9B40B /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = soumya/ProfileViewController.h; sourceTree = SOURCE_ROOT; };
+		04E0298F17D8914800F9B40B /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = soumya/ProfileViewController.m; sourceTree = SOURCE_ROOT; };
+		04E0299017D8914800F9B40B /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProfileViewController.xib; path = soumya/ProfileViewController.xib; sourceTree = SOURCE_ROOT; };
 		7F1F812417D45C3E00569CC3 /* SAN_requestToServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAN_requestToServer.h; sourceTree = "<group>"; };
 		7F1F812517D45C3E00569CC3 /* SAN_requestToServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAN_requestToServer.m; sourceTree = "<group>"; };
 		7F1F813917D4872D00569CC3 /* LoginScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginScreenViewController.h; path = soumya/LoginScreenViewController.h; sourceTree = SOURCE_ROOT; };
@@ -1239,6 +1244,9 @@
 				04E0297217D74A9D00F9B40B /* ServiceCell.h */,
 				04E0297317D74A9D00F9B40B /* ServiceCell.m */,
 				04E0297517D74B1600F9B40B /* ServiceCell.xib */,
+				04E0298E17D8914800F9B40B /* ProfileViewController.h */,
+				04E0298F17D8914800F9B40B /* ProfileViewController.m */,
+				04E0299017D8914800F9B40B /* ProfileViewController.xib */,
 			);
 			name = soumya;
 			sourceTree = "<group>";
@@ -1578,6 +1586,7 @@
 				04E028DD17D7030500F9B40B /* red_indicator@2x.png in Resources */,
 				04E0287F17D7030500F9B40B /* map_popover_bg@2x.png in Resources */,
 				04E0290B17D7030500F9B40B /* share_cell_bg@2x.png in Resources */,
+				04E0299217D8914800F9B40B /* ProfileViewController.xib in Resources */,
 				04E0298817D8780A00F9B40B /* house.png in Resources */,
 				04E028BE17D7030500F9B40B /* segment_list_selected.png in Resources */,
 				04E0290317D7030500F9B40B /* service_details_profile_pic_placeholder@2x.png in Resources */,
@@ -1737,6 +1746,7 @@
 				7F1F812617D45C3E00569CC3 /* SAN_requestToServer.m in Sources */,
 				04E0296F17D7260900F9B40B /* ServicesListViewController.m in Sources */,
 				7FDAC21217CC973D00316FFC /* main.m in Sources */,
+				04E0299117D8914800F9B40B /* ProfileViewController.m in Sources */,
 				7F97196117CF2A9D00FC624C /* SAN_descriptionViewController.m in Sources */,
 				7FDAC21617CC973D00316FFC /* SAN_AppDelegate.m in Sources */,
 				7FDAC21917CC973D00316FFC /* UseMe.xcdatamodeld in Sources */,
