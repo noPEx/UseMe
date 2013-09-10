@@ -26,6 +26,8 @@
         
         UIImage *selectedImg = [UIImage imageNamed:@"tab_favorite_selected.png"];
         [self.tabBarItem setSelectedImage:selectedImg];
+        [self.tabBarItem setFinishedSelectedImage:selectedImg withFinishedUnselectedImage:tabImg];
+
     }
     return self;
 }

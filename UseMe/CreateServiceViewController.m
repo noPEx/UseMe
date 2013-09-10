@@ -26,6 +26,7 @@
         
         UIImage *selectedImg = [UIImage imageNamed:@"tab_create_service_selected.png"];
         [self.tabBarItem setSelectedImage:selectedImg];
+        [self.tabBarItem setFinishedSelectedImage:selectedImg withFinishedUnselectedImage:tabImg];
     }
     return self;
 }
