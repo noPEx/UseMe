@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		043A103517D5CB3D001F6FC8 /* image1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 043A103417D5CB3D001F6FC8 /* image1.jpeg */; };
+		04BA94C917DEF132004DDC4E /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA94C717DEF132004DDC4E /* MessagesViewController.m */; };
+		04BA94CA17DEF132004DDC4E /* MessagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BA94C817DEF132004DDC4E /* MessagesViewController.xib */; };
+		04BA94CE17DEF147004DDC4E /* CreateServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA94CC17DEF147004DDC4E /* CreateServiceViewController.m */; };
+		04BA94CF17DEF147004DDC4E /* CreateServiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BA94CD17DEF147004DDC4E /* CreateServiceViewController.xib */; };
+		04BA94D317DEF156004DDC4E /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA94D117DEF156004DDC4E /* FavoritesViewController.m */; };
+		04BA94D417DEF156004DDC4E /* FavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BA94D217DEF156004DDC4E /* FavoritesViewController.xib */; };
+		04BA94D817DEF4BC004DDC4E /* SeeProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA94D617DEF4BC004DDC4E /* SeeProfileViewController.m */; };
+		04BA94D917DEF4BC004DDC4E /* SeeProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BA94D717DEF4BC004DDC4E /* SeeProfileViewController.xib */; };
+		04BA94DB17DEFDF1004DDC4E /* tint.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BA94DA17DEFDF1004DDC4E /* tint.png */; };
+		04BA94DD17DF0DC5004DDC4E /* ServicesListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BA94DC17DF0DC5004DDC4E /* ServicesListView.xib */; };
+		04BA94E017DF1797004DDC4E /* ServicesListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BA94DF17DF1797004DDC4E /* ServicesListView.m */; };
 		04E026E017D5DCB000F9B40B /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E026DF17D5DCB000F9B40B /* FacebookSDK.framework */; };
 		04E0285817D7030500F9B40B /* add_feedback_normal_rating_star.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E0273317D7030300F9B40B /* add_feedback_normal_rating_star.png */; };
 		04E0285917D7030500F9B40B /* add_feedback_normal_rating_star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04E0273417D7030300F9B40B /* add_feedback_normal_rating_star@2x.png */; };
@@ -359,6 +370,22 @@
 
 /* Begin PBXFileReference section */
 		043A103417D5CB3D001F6FC8 /* image1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpeg; sourceTree = "<group>"; };
+		04BA94C617DEF132004DDC4E /* MessagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagesViewController.h; path = soumya/MessagesViewController.h; sourceTree = SOURCE_ROOT; };
+		04BA94C717DEF132004DDC4E /* MessagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessagesViewController.m; path = soumya/MessagesViewController.m; sourceTree = SOURCE_ROOT; };
+		04BA94C817DEF132004DDC4E /* MessagesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MessagesViewController.xib; path = soumya/MessagesViewController.xib; sourceTree = SOURCE_ROOT; };
+		04BA94CB17DEF147004DDC4E /* CreateServiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateServiceViewController.h; sourceTree = "<group>"; };
+		04BA94CC17DEF147004DDC4E /* CreateServiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateServiceViewController.m; sourceTree = "<group>"; };
+		04BA94CD17DEF147004DDC4E /* CreateServiceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateServiceViewController.xib; sourceTree = "<group>"; };
+		04BA94D017DEF156004DDC4E /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		04BA94D117DEF156004DDC4E /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		04BA94D217DEF156004DDC4E /* FavoritesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoritesViewController.xib; sourceTree = "<group>"; };
+		04BA94D517DEF4BC004DDC4E /* SeeProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeeProfileViewController.h; path = soumya/SeeProfileViewController.h; sourceTree = SOURCE_ROOT; };
+		04BA94D617DEF4BC004DDC4E /* SeeProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeeProfileViewController.m; path = soumya/SeeProfileViewController.m; sourceTree = SOURCE_ROOT; };
+		04BA94D717DEF4BC004DDC4E /* SeeProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SeeProfileViewController.xib; path = soumya/SeeProfileViewController.xib; sourceTree = SOURCE_ROOT; };
+		04BA94DA17DEFDF1004DDC4E /* tint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tint.png; sourceTree = "<group>"; };
+		04BA94DC17DF0DC5004DDC4E /* ServicesListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ServicesListView.xib; path = soumya/ServicesListView.xib; sourceTree = SOURCE_ROOT; };
+		04BA94DE17DF1797004DDC4E /* ServicesListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServicesListView.h; path = soumya/ServicesListView.h; sourceTree = SOURCE_ROOT; };
+		04BA94DF17DF1797004DDC4E /* ServicesListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServicesListView.m; path = soumya/ServicesListView.m; sourceTree = SOURCE_ROOT; };
 		04E026DF17D5DCB000F9B40B /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		04E0273317D7030300F9B40B /* add_feedback_normal_rating_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_feedback_normal_rating_star.png; sourceTree = "<group>"; };
 		04E0273417D7030300F9B40B /* add_feedback_normal_rating_star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_feedback_normal_rating_star@2x.png"; sourceTree = "<group>"; };
@@ -1224,6 +1251,7 @@
 		7F9719EC17CF86F900FC624C /* soumya */ = {
 			isa = PBXGroup;
 			children = (
+				04BA94DA17DEFDF1004DDC4E /* tint.png */,
 				04E0297917D86B5A00F9B40B /* colors */,
 				7F1F815617D4BEAD00569CC3 /* pin.png */,
 				7F1F813E17D4874700569CC3 /* CalloutView.h */,
@@ -1247,6 +1275,21 @@
 				04E0298E17D8914800F9B40B /* ProfileViewController.h */,
 				04E0298F17D8914800F9B40B /* ProfileViewController.m */,
 				04E0299017D8914800F9B40B /* ProfileViewController.xib */,
+				04BA94C617DEF132004DDC4E /* MessagesViewController.h */,
+				04BA94C717DEF132004DDC4E /* MessagesViewController.m */,
+				04BA94C817DEF132004DDC4E /* MessagesViewController.xib */,
+				04BA94CB17DEF147004DDC4E /* CreateServiceViewController.h */,
+				04BA94CC17DEF147004DDC4E /* CreateServiceViewController.m */,
+				04BA94CD17DEF147004DDC4E /* CreateServiceViewController.xib */,
+				04BA94D017DEF156004DDC4E /* FavoritesViewController.h */,
+				04BA94D117DEF156004DDC4E /* FavoritesViewController.m */,
+				04BA94D217DEF156004DDC4E /* FavoritesViewController.xib */,
+				04BA94D517DEF4BC004DDC4E /* SeeProfileViewController.h */,
+				04BA94D617DEF4BC004DDC4E /* SeeProfileViewController.m */,
+				04BA94D717DEF4BC004DDC4E /* SeeProfileViewController.xib */,
+				04BA94DE17DF1797004DDC4E /* ServicesListView.h */,
+				04BA94DF17DF1797004DDC4E /* ServicesListView.m */,
+				04BA94DC17DF0DC5004DDC4E /* ServicesListView.xib */,
 			);
 			name = soumya;
 			sourceTree = "<group>";
@@ -1430,6 +1473,7 @@
 				04E0286017D7030500F9B40B /* app_bg-568h@2x.png in Resources */,
 				04E0292F17D7030500F9B40B /* filter_manufacturing_pin@2x.png in Resources */,
 				04E0292C17D7030500F9B40B /* filter_housekeeping_pin.png in Resources */,
+				04BA94DB17DEFDF1004DDC4E /* tint.png in Resources */,
 				04E028BF17D7030500F9B40B /* segment_list_selected@2x.png in Resources */,
 				04E0295917D7030500F9B40B /* login_button@2x.png in Resources */,
 				04E0288117D7030500F9B40B /* refresh_icon@2x.png in Resources */,
@@ -1480,6 +1524,7 @@
 				04E0286317D7030500F9B40B /* message_bottom_bar.png in Resources */,
 				04E0287317D7030500F9B40B /* type_text_box.png in Resources */,
 				04E0289F17D7030500F9B40B /* app_navigationBar@2x.png in Resources */,
+				04BA94D417DEF156004DDC4E /* FavoritesViewController.xib in Resources */,
 				04E0292D17D7030500F9B40B /* filter_housekeeping_pin@2x.png in Resources */,
 				04E0288017D7030500F9B40B /* refresh_icon.png in Resources */,
 				04E0290117D7030500F9B40B /* service_details_payment_bg@2x.png in Resources */,
@@ -1532,6 +1577,7 @@
 				04E0298C17D8780A00F9B40B /* science.png in Resources */,
 				7FDAC24417CCB09C00316FFC /* SAN_selectServiceViewController.xib in Resources */,
 				04E028E217D7030500F9B40B /* search_page_location_icon.png in Resources */,
+				04BA94DD17DF0DC5004DDC4E /* ServicesListView.xib in Resources */,
 				04E028F817D7030500F9B40B /* service_details_description_bg.png in Resources */,
 				7FDAC23C17CCA3F800316FFC /* SAN_addServiceViewController.xib in Resources */,
 				04E0286817D7030500F9B40B /* message_popup_1_arrow@2x.png in Resources */,
@@ -1562,6 +1608,7 @@
 				04E0292517D7030500F9B40B /* filter_entertainment_pin@2x.png in Resources */,
 				04E0292017D7030500F9B40B /* filter_service_icon.png in Resources */,
 				04E0287E17D7030500F9B40B /* map_popover_bg.png in Resources */,
+				04BA94CF17DEF147004DDC4E /* CreateServiceViewController.xib in Resources */,
 				04E028FC17D7030500F9B40B /* service_details_normal_favorite_btn.png in Resources */,
 				7FDAC21017CC973D00316FFC /* InfoPlist.strings in Resources */,
 				04E028A617D7030500F9B40B /* nav_close_btn.png in Resources */,
@@ -1580,6 +1627,7 @@
 				04E0287817D7030500F9B40B /* favourite.png in Resources */,
 				04E028DA17D7030500F9B40B /* profile_saved.png in Resources */,
 				04E028D017D7030500F9B40B /* new_service_top_table_bg.png in Resources */,
+				04BA94D917DEF4BC004DDC4E /* SeeProfileViewController.xib in Resources */,
 				04E0288F17D7030500F9B40B /* delete_button@2x.png in Resources */,
 				04E0287617D7030500F9B40B /* filter_page_navigationBar@2x.png in Resources */,
 				04E0293E17D7030500F9B40B /* tab_favorite_normal.png in Resources */,
@@ -1717,6 +1765,7 @@
 				04E028C417D7030500F9B40B /* new_service_add_portfolio_btn.png in Resources */,
 				04E0292917D7030500F9B40B /* filter_generic_pin@2x.png in Resources */,
 				04E0290217D7030500F9B40B /* service_details_profile_pic_placeholder.png in Resources */,
+				04BA94CA17DEF132004DDC4E /* MessagesViewController.xib in Resources */,
 				04E028F317D7030500F9B40B /* finance_icon.png in Resources */,
 				04E0294317D7030500F9B40B /* tab_map_normal@2x.png in Resources */,
 				04E0289A17D7030500F9B40B /* red_highlighted.png in Resources */,
@@ -1743,11 +1792,13 @@
 				7F1F814A17D4874700569CC3 /* myAnnotation.m in Sources */,
 				7FD724E217CDF2C800A154BD /* SAN_scheduleView.m in Sources */,
 				7F95915917D0AC34004CF897 /* SAN_Cell1.m in Sources */,
+				04BA94D317DEF156004DDC4E /* FavoritesViewController.m in Sources */,
 				7F1F812617D45C3E00569CC3 /* SAN_requestToServer.m in Sources */,
 				04E0296F17D7260900F9B40B /* ServicesListViewController.m in Sources */,
 				7FDAC21217CC973D00316FFC /* main.m in Sources */,
 				04E0299117D8914800F9B40B /* ProfileViewController.m in Sources */,
 				7F97196117CF2A9D00FC624C /* SAN_descriptionViewController.m in Sources */,
+				04BA94C917DEF132004DDC4E /* MessagesViewController.m in Sources */,
 				7FDAC21617CC973D00316FFC /* SAN_AppDelegate.m in Sources */,
 				7FDAC21917CC973D00316FFC /* UseMe.xcdatamodeld in Sources */,
 				7FD724E817CE21CB00A154BD /* SAN_addMapViewController.m in Sources */,
@@ -1757,8 +1808,11 @@
 				7F1F814617D4874700569CC3 /* CalloutView.m in Sources */,
 				7F97195D17CF122900FC624C /* SAN_annotation.m in Sources */,
 				7FDAC27017CCDB7B00316FFC /* SAN_paymentView.m in Sources */,
+				04BA94CE17DEF147004DDC4E /* CreateServiceViewController.m in Sources */,
 				7F1F815317D4BB5000569CC3 /* MapScreenViewController.m in Sources */,
 				7F1F813C17D4872D00569CC3 /* LoginScreenViewController.m in Sources */,
+				04BA94E017DF1797004DDC4E /* ServicesListView.m in Sources */,
+				04BA94D817DEF4BC004DDC4E /* SeeProfileViewController.m in Sources */,
 				7FDAC24317CCB09C00316FFC /* SAN_selectServiceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
