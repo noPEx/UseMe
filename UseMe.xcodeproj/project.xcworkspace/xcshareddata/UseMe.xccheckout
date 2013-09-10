@@ -5,33 +5,41 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>588BCF63-104A-4D62-8054-B8B63FADEE6C</string>
+	<string>40D4133D-5582-479C-8F89-B91333643823</string>
 	<key>IDESourceControlProjectName</key>
 	<string>UseMe</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>5B4C6D2C-B998-4769-9C96-C9289B5A2335</key>
-		<string>https://bitbucket.org/soumya/useme.git</string>
+		<key>0665A2DA-53A6-4EBA-BB33-7EA95B865E9B</key>
+		<string>https://github.com/noPEx/UseMe.git</string>
 		<key>6484C13D-CA43-4954-A4C4-A9F74ACDDE9D</key>
 		<string>https://bitbucket.org/soumya/useme.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>santhosh/UseMe.xcodeproj/project.xcworkspace</string>
+	<string>UseMe.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>5B4C6D2C-B998-4769-9C96-C9289B5A2335</key>
-		<string>../../..</string>
+		<key>0665A2DA-53A6-4EBA-BB33-7EA95B865E9B</key>
+		<string>../..</string>
 		<key>6484C13D-CA43-4954-A4C4-A9F74ACDDE9D</key>
 		<string>../../soumya</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://bitbucket.org/soumya/useme.git</string>
+	<string>https://github.com/noPEx/UseMe.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>5B4C6D2C-B998-4769-9C96-C9289B5A2335</string>
+	<string>0665A2DA-53A6-4EBA-BB33-7EA95B865E9B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0665A2DA-53A6-4EBA-BB33-7EA95B865E9B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Sep</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
@@ -39,14 +47,6 @@
 			<string>6484C13D-CA43-4954-A4C4-A9F74ACDDE9D</string>
 			<key>IDESourceControlWCCName</key>
 			<string>soumya</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>5B4C6D2C-B998-4769-9C96-C9289B5A2335</string>
-			<key>IDESourceControlWCCName</key>
-			<string>USEme</string>
 		</dict>
 	</array>
 </dict>
