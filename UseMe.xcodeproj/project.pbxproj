@@ -386,6 +386,7 @@
 		04BA94DC17DF0DC5004DDC4E /* ServicesListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ServicesListView.xib; path = soumya/ServicesListView.xib; sourceTree = SOURCE_ROOT; };
 		04BA94DE17DF1797004DDC4E /* ServicesListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServicesListView.h; path = soumya/ServicesListView.h; sourceTree = SOURCE_ROOT; };
 		04BA94DF17DF1797004DDC4E /* ServicesListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServicesListView.m; path = soumya/ServicesListView.m; sourceTree = SOURCE_ROOT; };
+		04BAA89117E04202004DDC4E /* service */ = {isa = PBXFileReference; lastKnownFileType = text; name = service; path = soumya/service; sourceTree = SOURCE_ROOT; };
 		04E026DF17D5DCB000F9B40B /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		04E0273317D7030300F9B40B /* add_feedback_normal_rating_star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_feedback_normal_rating_star.png; sourceTree = "<group>"; };
 		04E0273417D7030300F9B40B /* add_feedback_normal_rating_star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add_feedback_normal_rating_star@2x.png"; sourceTree = "<group>"; };
@@ -1290,6 +1291,7 @@
 				04BA94DE17DF1797004DDC4E /* ServicesListView.h */,
 				04BA94DF17DF1797004DDC4E /* ServicesListView.m */,
 				04BA94DC17DF0DC5004DDC4E /* ServicesListView.xib */,
+				04BAA89117E04202004DDC4E /* service */,
 			);
 			name = soumya;
 			sourceTree = "<group>";
