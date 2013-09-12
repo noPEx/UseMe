@@ -22,7 +22,7 @@
                 //self.tabBarItem  = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemFavorites tag:0];
         UIImage *tabImg = [UIImage imageNamed:@"tab_create_service_normal.png"];
         self.tabBarItem.image = tabImg;
-        self.tabBarItem.title = @"Create";
+        //self.tabBarItem.title = @"Create";
         
         UIImage *selectedImg = [UIImage imageNamed:@"tab_create_service_selected.png"];
         [self.tabBarItem setSelectedImage:selectedImg];
